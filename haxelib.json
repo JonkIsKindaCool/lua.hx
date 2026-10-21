@@ -1,0 +1,20 @@
+{
+    "name": "lua.hx",
+    "url": "https://example.com/lua.hx",
+    "license": "MIT",
+    "tags": [
+        "lua",
+        "scripting",
+        "interpreter",
+        "vm",
+        "cross"
+    ],
+    "description": "Lua 5.5 in pure haxe: bytecode vm with coroutines and complete stdlib.",
+    "version": "0.1.0",
+    "classPath": "src",
+    "releasenote": "Primera versión",
+    "contributors": [
+        "JonkIsKindaCool"
+    ],
+    "dependencies": {}
+}
