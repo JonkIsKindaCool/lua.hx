@@ -1,6 +1,6 @@
 {
     "name": "lua.hx",
-    "url": "https://example.com/lua.hx",
+    "url": "https://github.com/JonkIsKindaCool/lua.hx",
     "license": "MIT",
     "tags": [
         "lua",
@@ -12,7 +12,7 @@
     "description": "Lua 5.5 in pure haxe: bytecode vm with coroutines and complete stdlib.",
     "version": "0.1.0",
     "classPath": "src",
-    "releasenote": "Primera versión",
+    "releasenote": "Hello haxelib.",
     "contributors": [
         "JonkIsKindaCool"
     ],
