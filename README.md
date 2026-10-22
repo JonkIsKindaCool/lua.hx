@@ -189,7 +189,8 @@ converts to/from Unicode at the boundary, so `#"é"` is `2` in Lua exactly as in
 | Neko | ✅ output identical |
 | JavaScript (Node.js) | ✅ output identical |
 | Python | ✅ output identical |
-| C++, JVM, HashLink, C#, PHP, Lua | ⚠️ not tested yet — contributions and reports welcome |
+| HashLink | ✅ output identical |
+| C++, JVM, C#, PHP, Lua | ⚠️ not tested yet — contributions and reports welcome |
 
 The embedding API (`test/WrapperTest.hx`) passes on eval, Neko, JavaScript and Python. Lua 5.5-specific behavior
 (`test/t55.lua`) was checked by hand since no 5.5 reference binary was available.
