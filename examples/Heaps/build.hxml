@@ -1,0 +1,16 @@
+--library lua.hx
+--library heaps
+--class-path src
+--define resourcesPath=resources
+--main Main
+--js bin/html5/main.js
+
+--next
+
+--library lua.hx
+--library heaps
+--library hlsdl
+--class-path src
+--define resourcesPath=resources
+--main Main
+--hl bin/hl/main.hl

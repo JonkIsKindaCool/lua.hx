@@ -518,7 +518,7 @@ class LNum {
 	 * @param v Value to convert.
 	 * @returns The `Int64` bits of `v`.
 	 */
-	static inline function bitsOf(v:Dynamic):Int64 {
+	static inline function bitsOf(v:Dynamic):Null<Int64> {
 		var n = toNumber(v);
 		if (n == null) return null;
 		if (Std.isOfType(n, LFloat)) {
